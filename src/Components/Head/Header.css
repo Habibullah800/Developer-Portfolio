@@ -31,6 +31,14 @@ header ul li a:hover {
     color: #ff014f;
 }
 
+.logo img {
+    border-radius: 18px;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
 .home-btn {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
@@ -47,7 +55,7 @@ header ul li a:hover {
 }
 
 .header.active {
-    height: 12vh;
+    height: 14vh;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -74,6 +82,11 @@ header ul li a:hover {
         height: 100vh;
         background-color: white;
         z-index: 888;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 50px;
     }
 
     header ul li {
@@ -113,6 +126,6 @@ header ul li a:hover {
     }
 
     .header.active {
-        height: 10vh;
+        height: 12vh;
     }
 }
