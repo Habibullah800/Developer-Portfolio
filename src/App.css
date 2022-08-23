@@ -23,6 +23,8 @@ body {
 .d_flex {
   display: flex;
   justify-content: space-between;
+
+
 }
 
 .f_flex {
@@ -100,10 +102,13 @@ button {
   color: #ff014f;
   letter-spacing: 2px;
   font-weight: 400;
+  font-size: 25px;
+  text-align: center;
 }
 
 .heading h1 {
-  font-size: 60px;
+  font-size: 40px;
+  text-align: center;
   color: #3c3e41;
 }
 
@@ -151,11 +156,11 @@ footer p {
 /*----------Footer---------*/
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .left,
   .right {
-    width: 100%;
+    width: 90%;
   }
 }

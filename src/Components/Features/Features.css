@@ -1,9 +1,16 @@
 .features .box {
-    padding: 50px;
+    padding: 40px;
+
+
 }
 
 .features .box h2 {
     margin: 20px 0 20px 0;
+}
+
+.features .box img {
+    height: 40px;
+
 }
 
 .features .box p {
@@ -25,4 +32,8 @@
 .features .box:hover i {
     color: white;
     opacity: 1;
+}
+
+.arrow {
+    margin-bottom: 50px;
 }
