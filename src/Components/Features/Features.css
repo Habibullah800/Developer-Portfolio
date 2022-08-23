@@ -1,15 +1,16 @@
 .features .box {
-    padding: 40px;
-
-
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid lemonchiffon;
 }
 
 .features .box h2 {
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
 }
 
 .features .box img {
-    height: 40px;
+    height: 30px;
+    margin: 20px;
 
 }
 
@@ -36,4 +37,9 @@
 
 .arrow {
     margin-bottom: 50px;
+}
+
+.picture {
+    height: 80px;
+
 }

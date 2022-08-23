@@ -3,6 +3,7 @@ import Header from './Components/Head/Header';
 import Home from './Components/Hero/Home';
 import Features from './Components/Features/Features';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Home />
       <Features />
       <Portfolio />
-      {/* <Resume />
-      <Testimonial />
+      <Resume />
+      {/* <Testimonial />
       <Blog />
       <Contact />
       <Footer /> */}
