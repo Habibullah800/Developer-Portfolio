@@ -4,6 +4,7 @@ import Home from './Components/Hero/Home';
 import Features from './Components/Features/Features';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Resume from './Components/Resume/Resume';
+import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       <Features />
       <Portfolio />
       <Resume />
-      {/* <Testimonial />
-      <Blog />
+      <Testimonial />
+      {/* <Blog />
       <Contact />
       <Footer /> */}
     </div>
