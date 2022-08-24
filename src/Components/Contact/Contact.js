@@ -50,26 +50,46 @@ const Contact = () => {
                     <div className='content d_flex'>
                         <div className='left'>
                             <div className='box box_shodow'>
-                                <div className='img'>
+                                <div className='pic'>
                                     <img src={contact1} alt='' />
                                 </div>
                                 <div className='details'>
-                                    <h1>Nevine Acotanza</h1>
-                                    <p>Chief Operating Officer</p>
+                                    <h1>Habibullah Bahar</h1>
+                                    <p>Web Developer</p>
                                     <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                                    <p>Phone: +01234567890</p>
-                                    <p>Email: admin@example.com</p> <br />
+                                    <p>Phone: +8801757971756</p>
+                                    <p>Email: mdhabibullah800@gmail.com</p> <br />
                                     <span>FIND WITH ME</span>
                                     <div className='button f_flex'>
-                                        <button className='btn_shadow'>
-                                            <i className='fab fa-facebook-f'></i>
-                                        </button>
-                                        <button className='btn_shadow'>
-                                            <i className='fab fa-instagram'></i>
-                                        </button>
-                                        <button className='btn_shadow'>
-                                            <i className='fab fa-twitter'></i>
-                                        </button>
+                                        <a href="https://web.facebook.com/profile.php?id=100008422393695" target="blank">
+                                            <button className='btn_shadow'>
+                                                <i className='fab fa-facebook-f'></i>
+
+                                            </button>
+                                        </a>
+
+                                        <a href=" https://www.linkedin.com/in/habibullah-habib800/" target="blank">
+                                            <button className='btn_shadow'>
+                                                <i class="fab fa-linkedin"></i>
+                                            </button>
+                                        </a>
+
+                                        <a href="https://www.instagram.com/t_r_md_habibullah/" target='blank'>
+                                            <button className='btn_shadow'>
+                                                <i className='fab fa-instagram'></i>
+                                            </button>
+                                        </a>
+
+                                        <a href="https://twitter.com/Habibul42677783" target='blank'>
+                                            <button className='btn_shadow'>
+                                                <i className='fab fa-twitter'></i>
+                                            </button>
+                                        </a>
+                                        <a href="https://github.com/Habibullah800" target='blank'>
+                                            <button className='btn_shadow'>
+                                                <i className='fab fa-github'></i>
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

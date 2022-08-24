@@ -1,14 +1,22 @@
-.Contact .left {
-    width: 35%;
-    margin-left: 50px;
+.Contact .right {
+    border: 1px solid yellow;
+    max-height: fit-content
 }
 
-.Contact .right {
-    width: 53%;
+.Contact .RightText {
+    width: 90%;
+    margin: auto;
+
+}
+
+.Contact .text {
+    margin: 15px;
+    padding-top: 10px;
+
 }
 
 .Contact .box {
-    padding: 20px;
+    padding: 10px;
     border: 1px solid lightgoldenrodyellow;
 }
 
@@ -18,23 +26,22 @@
 }
 
 .Contact .details p {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .Contact .button {
-    margin-top: 20px;
+    margin-top: 10px;
+
 }
 
 .Contact button {
     margin-right: 12px;
 }
 
-.Contact .right {
-    padding: 30px;
-}
 
 .Contact .input span {
     font-size: 13px;
+    margin: 10px;
 }
 
 .Contact input {
@@ -42,6 +49,7 @@
 }
 
 .Contact .right button {
+
     width: 100%;
     color: #ff014f;
     font-weight: 700;
@@ -53,22 +61,4 @@
 
 .Contact .right button i {
     margin-left: 10px;
-}
-
-.pic img {
-    width: 100%;
-
-}
-
-@media (max-width: 768px) {
-    .Contact .d_flex {
-        flex-direction: column;
-    }
-
-    .Contact .left,
-    .Contact .right {
-        width: 100%;
-        margin-top: 50px;
-        margin-left: 0px;
-    }
 }

@@ -1,34 +1,31 @@
 const TestimonialApi = [
     {
         id: 1,
-        image: "../pic/hero.png",
-        design: "NCD - DESIGN",
+        design: "MBSTU",
         name: "Dr. Abdullah Al Manun",
-        offcer: "Marketing Officer",
+        offcer: "Bsc Engineer",
         post: "Associate professor",
-        date: "Thoda Department - Mar 4, 2018 - Aug 30, 2021",
-        desc: "Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris",
+        date: "Department - Mar 4, 2017 Present",
+        desc: "Habibullah is academically smart and motivated. It manifests with his credentials. Following the premises above, I believe that he is very much deserving of any projects.",
     },
     {
         id: 2,
-        image: "./image/slide2.png",
-        design: "Default name",
-        name: "Davei Luace",
-        offcer: "Chief Operating Manager",
-        post: "Android App Development",
-        date: "via Upwork - Mar 4, 2015 - Aug 30, 2021",
-        desc: "When managment is so important. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.",
+        design: "Uttara University",
+        name: "Jabed Hasan Emon",
+        offcer: "Bsc Engineer",
+        post: "Lecturer",
+        date: "Department - Mar 4, 2019 present",
+        desc: "From the start of the project, Habibullah supported us and exceeded our expectations in every way. Not only was our experience personal and friendly, his ability to identify and present our key messages in an imaginative and creative way gave us a huge amount of confidence in him. ",
     },
-    // {
-    //     id: 3,
-    //     image: "./image/slide3.png",
-    //     design: "Rainbow-Themes",
-    //     name: "Nevine Acotanza",
-    //     offcer: "Chief Operating Officer",
-    //     post: "Android App Development",
-    //     date: "via Upwork - Mar 4, 2015 - Aug 30, 2021",
-    //     desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.",
-    // }
+    {
+        id: 3,
+        design: "Fiverr",
+        name: "Charlie Grace",
+        offcer: "Chief Marketing Officer",
+        post: "Digital marketing",
+        date: "via Fiverr - Mar 4, 2022",
+        desc: "Habibullah was very helpful and fast to respond to my inquiry to help as a web developer. His knowledge was comprehensive. Even better, his advice helped me enough to solve the problems and he did not accept any payment for this, very straight up guy! Thank you Habibullah.",
+    }
 ]
 
 export default TestimonialApi
