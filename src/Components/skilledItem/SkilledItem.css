@@ -1,0 +1,60 @@
+.skilledItem .box {
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid lemonchiffon;
+}
+
+.skilledItem .box h2 {
+    margin: 2px 0 10px 0;
+}
+
+.skilledItem .box img {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.skilledItem .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.skilledItem .box i {
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.skilledItem .box:hover p {
+    color: white;
+}
+
+.skilledItem .box:hover i {
+    color: white;
+    opacity: 1;
+}
+
+
+
+.skillGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 35px;
+}
+
+.Skilltitle {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .skillGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+}

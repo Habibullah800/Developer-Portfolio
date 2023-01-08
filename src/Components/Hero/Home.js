@@ -1,9 +1,6 @@
 import React from "react"
 import "./Home.css"
 import hero from "../pic/hero.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
 import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
@@ -15,43 +12,52 @@ const Home = () => {
                     <div className='left top'>
                         <h3>WELCOME TO MY WORLD</h3>
                         <h1>
-                            Hi, I’m <span>Jone Lee</span>
+                            Hi, I’m <span>Habibullah</span>
                         </h1>
                         <h2>
                             a
                             <span>
-                                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='.' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='.' typeSpeed={90} deleteSpeed={70} delaySpeed={1000} />
                             </span>
                         </h2>
 
-                        <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                        <p>I’m a passionate full-stack web developer with 2+ years of experience, focusing on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you! </p>
 
                         <div className='hero_btn d_flex'>
                             <div className='col_1'>
                                 <h4>FIND WITH ME</h4>
                                 <div className='button'>
-                                    <button className='btn_shadow'>
-                                        <i class='fab fa-facebook-f'></i>
-                                    </button>
-                                    <button className='btn_shadow'>
-                                        <i class='fab fa-instagram'></i>
-                                    </button>
-                                    <button className='btn_shadow'>
-                                        <i class='fab fa-linkedin-in'></i>
-                                    </button>
+
+                                    <a href="https://github.com/Habibullah800" target='blank'>
+                                        <button className='btn_shadow'>
+                                            <i className='fab fa-github'></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://web.facebook.com/profile.php?id=100008422393695" target="blank">
+                                        <button className='btn_shadow'>
+                                            <i className='fab fa-facebook-f'></i>
+                                        </button>
+                                    </a>
+                                    <a href=" https://www.linkedin.com/in/habibullah-habib800/" target="blank">
+                                        <button className='btn_shadow'>
+                                            <i class="fab fa-linkedin"></i>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className='col_1'>
-                                <h4>BEST SKILL ON</h4>
-                                <button className='btn_shadow'>
-                                    <img src={skill1} alt='' />
-                                </button>
-                                <button className='btn_shadow'>
-                                    <img src={skill2} alt='' />
-                                </button>
-                                <button className='btn_shadow'>
-                                    <img src={skill3} alt='' />
-                                </button>
+                                <h4>BEST SKILL ON</h4><div className='button'>
+                                    <button className='btn_shadow'>
+                                        <i className='fab fa-react'></i>
+                                    </button>
+                                    <button className='btn_shadow'>
+                                        <i className='fab fa-angular'></i>
+                                    </button>
+                                    <button className='btn_shadow'>
+                                        <i class="fab fa-node"></i>
+                                    </button>
+
+                                </div>
                             </div>
                         </div>
                     </div>

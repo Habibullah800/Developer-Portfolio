@@ -21,6 +21,7 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
                         <span className='primary_color'>{design}</span>
                         <h2>{name}</h2>
                         <label>{offcer}</label>
+
                     </div>
 
                 </div>
@@ -40,20 +41,6 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
                     </div>
                 </div>
             </article>
-
-            {/*
-	    <img src='https://rainbowit.net/html/inbio/assets/images/testimonial/final-home--4th.png' alt='' />
-        <span className='primary_color'>NCD - DESIGN</span>
-        <h2>Mevine Thoda</h2>
-        <label>Marketing Officer</label>
-        
-        <i class='fal fa-quote-right'></i>
-        <i class='fas fa-arrow-left'></i>
-        <i class='fas fa-arrow-right'></i>
-        <h1>CEO - Marketing</h1>
-        <h3>Thoda Department - Mar 4, 2018 - Aug 30, 2021</h3>
-        <p>Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris</p>
-     */}
         </>
     )
 }

@@ -83,6 +83,11 @@
     width: 420px;
 }
 
+.skill_logo {
+    height: 50px;
+    width: 50px;
+}
+
 @media (max-width: 768px) {
 
     .hero .right,
@@ -98,6 +103,6 @@
 
     .hero .right_img {
         width: 100%;
-        height: 54vh;
+        height: 59vh;
     }
 }

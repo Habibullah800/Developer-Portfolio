@@ -32,19 +32,22 @@ const Header = () => {
                                 <a href='#portfolio'>portfolio</a>
                             </li>
                             <li>
+                                <a href='#skill'>Skills</a>
+                            </li>
+                            <li>
                                 <a href='#resume'>resume</a>
                             </li>
                             <li>
-                                <a href='#clients'>clients</a>
+                                <a href='#clients'>Testimonial</a>
                             </li>
                             <li>
                                 <a href='#blog'>blog</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href='#contact'>contact</a>
-                            </li>
+                            </li> */}
                             <li>
-                                <button className='home-btn'>BUY NOW</button>
+                                <button className='home-btn'><a href='#contact'>Contact me</a></button>
                             </li>
                         </ul>
 

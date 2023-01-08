@@ -19,6 +19,10 @@
     margin-top: 30px;
 }
 
+.sendBtn {
+    width: 100%;
+}
+
 /*----------blog_contact--------*/
 
 .blog_contact .left,

@@ -1,64 +1,60 @@
-.Contact .right {
+.Feedback .right {
     border: 1px solid yellow;
-    max-height: fit-content
+
 }
 
-.Contact .RightText {
-    width: 90%;
+.Feedback .RightText {
+    width: 50%;
     margin: auto;
 
 }
 
-.Contact .text {
-    margin: 15px;
-    padding-top: 10px;
 
-}
 
-.Contact .box {
+.Feedback .box {
     padding: 10px;
     border: 1px solid lightgoldenrodyellow;
 }
 
-.Contact .details h1 {
+.Feedback .details h1 {
     margin: 10px 0 10px 0;
     font-size: 35px;
 }
 
-.Contact .details p {
-    font-size: 10px;
+.Feedback .details p {
+    font-size: 17px;
 }
 
-.Contact .button {
+.Feedback .button {
     margin-top: 10px;
 
 }
 
-.Contact button {
+.Feedback button {
     margin-right: 12px;
 }
 
 
-.Contact .input span {
-    font-size: 13px;
+.Feedback .input span {
+    font-size: 15px;
     margin: 10px;
 }
 
-.Contact input {
+.Feedback input {
     margin-top: 5px;
 }
 
-.Contact .right button {
+.Feedback .right button {
 
     width: 100%;
     color: #ff014f;
     font-weight: 700;
 }
 
-.Contact .right button:hover {
+.Feedback .right button:hover {
     color: white;
 }
 
-.Contact .right button i {
+.Feedback .right button i {
     margin-left: 10px;
 }

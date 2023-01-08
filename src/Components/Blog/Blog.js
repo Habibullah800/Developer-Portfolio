@@ -16,7 +16,11 @@ const Blog = () => {
 
                     <div className='content grid'>
                         {BlogApi.map((value, index) => {
-                            return <Card key={index} image={value.image} date={value.date} title_one={value.title_one} title_two={value.title_two} title_three={value.title_three} desc_one={value.desc_one} desc_two={value.desc_two} desc_three={value.desc_three} />
+                            return <Card key={index} image={value.image} date={value.date}
+
+                                title_one={value.title_one} title_two={value.title_two} title_three={value.title_three} title_four={value.title_four} title_five={value.title_five}
+
+                                desc_one={value.desc_one} desc_two={value.desc_two} desc_three={value.desc_three} desc_four={value.desc_four} desc_five={value.desc_five} />
                         })}
                     </div>
                 </div>

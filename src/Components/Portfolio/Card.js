@@ -12,9 +12,11 @@ const Card = (props) => {
     } else {
         document.body.classList.remove("active-modal")
     }
+    console.log(props.gitui);
+    const git = props.gitui
     return (
         <>
-            <div className='box btn_shadow '>
+            <div onClick={toggleModal} className='box btn_shadow '>
                 <div className='img'>
                     <img src={props.image} alt='' onClick={toggleModal} />
                 </div>
@@ -26,8 +28,11 @@ const Card = (props) => {
                 </div>
                 <div className='title'>
                     <h2 onClick={toggleModal}>{props.title}</h2>
-                    <a href='#popup' className='arrow' onClick={toggleModal}>
-                        <i class='fas fa-arrow-right'></i>
+                    <a href='#popup' onClick={toggleModal}>
+
+                        <button className='btn_shadow'>
+                            Details
+                        </button>
                     </a>
                 </div>
             </div>
@@ -39,19 +44,32 @@ const Card = (props) => {
                     <div className='modal-content d_flex'>
                         <div className='modal-img left'>
                             <img src={props.image} alt='' />
+                            <span className='category d_flex'>{props.tecnology}</span>
                         </div>
                         <div className='modal-text right'>
                             <span>Featured - Design</span>
                             <h1>{props.title}</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-                            <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
-                            <div className='button f_flex mtop'>
-                                <button className='btn_shadow'>
-                                    LIKE THIS <i class='far fa-thumbs-up'></i>
-                                </button>
-                                <button className='btn_shadow'>
-                                    VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                                </button>
+                            <p>{props.discription}</p>
+
+                            <div className='button modalButon m_top'>
+                                <a href={props.live} target='blank'>
+                                    <button className='btn_shadow'>
+                                        WebSite Live Link
+                                    </button>
+                                </a>
+
+                                <a href={props.gitui} target='blank'>
+                                    <button className='btn_shadow'>
+                                        Git UI Repository
+                                    </button>
+                                </a>
+                                <a href={props.gitserver} target='blank'>
+                                    <button className='btn_shadow'>
+                                        Server Repository
+                                    </button>
+                                </a>
+
+
                             </div>
                             <button className='close-modal btn_shadow' onClick={toggleModal}>
                                 <i class='fas fa-times'></i>

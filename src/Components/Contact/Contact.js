@@ -55,8 +55,8 @@ const Contact = () => {
                                 </div>
                                 <div className='details'>
                                     <h1>Habibullah Bahar</h1>
-                                    <p>Web Developer</p>
-                                    <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
+
+                                    <p>I care deeply about creating world-class, useful, and beautiful products that help people and make a difference. I can be as involved in your project as you need me to be.</p>
                                     <p>Phone: +8801757971756</p>
                                     <p>Email: mdhabibullah800@gmail.com</p> <br />
                                     <span>FIND WITH ME</span>
@@ -118,7 +118,7 @@ const Contact = () => {
                                 </div>
                                 <div className='input'>
                                     <span>YOUR MESSAGE </span>
-                                    <textarea cols='30' rows='6' name="message" ></textarea>
+                                    <textarea cols='30' rows='4' name="message" ></textarea>
                                 </div>
                                 <button className='btn_shadow'>
                                     SEND MESSAGE <i className='fa fa-long-arrow-right'></i>

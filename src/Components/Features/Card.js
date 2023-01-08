@@ -7,9 +7,7 @@ const Card = (props) => {
             <div className='box btn_shadow '>
                 <div className="d_flex picture">
                     <img src={props.image} alt='' />
-                    <a href='/'>
-                        <i className='fas fa-arrow-right arrow'></i>
-                    </a>
+
                 </div>
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>

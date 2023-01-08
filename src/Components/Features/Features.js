@@ -17,15 +17,6 @@ const Features = () => {
                         {data.map((val, index) => {
                             return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
                         })}
-
-                        {/*<div className='box btn_shadow'>
-              <img src='https://img.icons8.com/glyph-neue/64/000000/polyline.png' alt='' />
-              <h2>Personal Portfolio April</h2>
-              <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
-              <a href=''>
-                <i class='fas fa-arrow-right'></i>
-              </a>
-            </div>*/}
                     </div>
                 </div>
             </section>

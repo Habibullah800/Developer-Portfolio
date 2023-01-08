@@ -13,7 +13,7 @@
 }
 
 .Portfolio .img {
-    height: 300px;
+    height: 250px;
     overflow: hidden;
     transition: 0.5s;
 }
@@ -98,8 +98,8 @@ body.active-modal {
 
 .modal-content {
     position: absolute;
-    top: 12%;
-    left: 8%;
+    top: 2%;
+    left: 10%;
     line-height: 1.4;
     background: #f0f3f5;
     padding: 14px 28px;
@@ -129,6 +129,7 @@ body.active-modal {
 
 .modal-text button {
     margin-right: 20px;
+    margin-bottom: 20px;
     color: #ff014f;
 }
 
@@ -147,6 +148,8 @@ body.active-modal {
     padding: 0 0;
     font-size: 20px;
 }
+
+
 
 .modal-text button.close-modal i {
     margin: 0;

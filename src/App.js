@@ -7,7 +7,9 @@ import Resume from './Components/Resume/Resume';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/Footer';
+import SkilledItem from './Components/skilledItem/SkilledItem';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Home />
       <Features />
       <Portfolio />
+      <SkilledItem />
       <Resume />
       <Testimonial />
       <Blog />
