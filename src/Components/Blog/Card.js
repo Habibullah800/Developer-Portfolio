@@ -12,7 +12,6 @@ const Card = (props) => {
         const subject = e.target.subject.value;
         const message = e.target.message.value;
 
-
         emailjs.sendForm('service_006ehbq', 'template_1wm0mza', form.current, 'P2ov0TGDQT6meLdtg')
             .then((result) => {
             }, (error) => {
@@ -30,8 +29,6 @@ const Card = (props) => {
         e.preventDefault()
         e.target.reset();
     };
-
-
 
     const [modal, setModal] = useState(false)
 

@@ -16,14 +16,11 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
             <article className={`d_flex ${position}`} key={id}>
 
                 <div className='left box_shodow'>
-
                     <div className='details mtop'>
                         <span className='primary_color'>{design}</span>
                         <h2>{name}</h2>
                         <label>{offcer}</label>
-
                     </div>
-
                 </div>
 
                 <div className='right'>
@@ -32,12 +29,10 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
                             <i class='fal fa-quote-right'></i>
                         </div>
                     </div>
-
                     <div className='content box_shodow mtop'>
                         <h1>{post}</h1>
                         <h3>{date}</h3>
                         <p>{desc}</p>
-
                     </div>
                 </div>
             </article>

@@ -13,10 +13,9 @@ const SkilledItem = () => {
                             <h4 className="title">Skilled Area</h4>
                             <h1 className="ShortTitle">The skills I have</h1>
                         </div>
-
                         <div className='content skillGrid'>
                             {data.map((val, index) => {
-                                return <Card key={index} image={val.image} image2={val.image2} title={val.title} desc={val.desc} />
+                                return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
                             })}
                         </div>
                     </div>

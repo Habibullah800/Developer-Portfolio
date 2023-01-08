@@ -12,7 +12,6 @@ const Features = () => {
                         <h4 className="title">Features</h4>
                         <h1 className="ShortTitle">What I Do</h1>
                     </div>
-
                     <div className='content grid'>
                         {data.map((val, index) => {
                             return <Card key={index} image={val.image} title={val.title} desc={val.desc} />

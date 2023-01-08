@@ -3,17 +3,14 @@ import "./Feedback.css"
 import emailjs from '@emailjs/browser';
 
 const Feedback = () => {
+
     const form = useRef();
-
-
     const sendEmail = (e) => {
         const name = e.target.user_name.value;
         const phone = e.target.phone.value;
         const email = e.target.user_email.value;
         const subject = e.target.subject.value;
         const message = e.target.message.value;
-
-
         emailjs.sendForm('service_006ehbq', 'template_1wm0mza', form.current, 'P2ov0TGDQT6meLdtg')
             .then((result) => {
                 console.log(result.text);
@@ -29,13 +26,9 @@ const Feedback = () => {
         Here is my message I want to say : ${message}. 
         `
         )
-
         e.preventDefault()
         e.target.reset();
     };
-
-
-
 
     return (
         <>
@@ -44,14 +37,9 @@ const Feedback = () => {
                     <div className='heading text-center'>
                         <h1>Leave a reply</h1>
                     </div>
-
                     <div>
-
-
-
                         <div className='right box_shodow'>
                             <form ref={form} onSubmit={sendEmail}>
-
                                 <div className='input RightText'>
                                     <span className="text">YOUR NAME </span>
                                     <input type='text' name="user_name" />

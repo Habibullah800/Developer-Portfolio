@@ -1,7 +1,6 @@
 .Contact .left {
     width: 40%;
     margin-left: 50px;
-
 }
 
 .Contact .right {
@@ -58,7 +57,6 @@
 
 .pic img {
     width: 100%;
-
 }
 
 @media (max-width: 768px) {

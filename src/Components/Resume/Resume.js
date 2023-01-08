@@ -12,7 +12,6 @@ const Resume = () => {
                         <h4>2+ YEARS OF EXPERIENCE</h4>
                         <h1>My Resume</h1>
                     </div>
-
                     <div className='content-section mtop d_flex'>
                         <div className='left'>
                             <div className='heading'>
@@ -27,8 +26,6 @@ const Resume = () => {
                                 })}
                             </div>
                         </div>
-
-
                         <div className='left'>
                             <div className='heading'>
                                 {/* <h4>2007-2010</h4> */}
@@ -42,7 +39,6 @@ const Resume = () => {
                                 })}
                             </div>
                         </div>
-
                     </div>
                     <div className='button resumeBtn '>
                         <a href='https://drive.google.com/file/d/1MdjQN843Ui4nVrn27KOL_dN09wVVJ3Xd/view?usp=sharing' target='blank'>
@@ -50,8 +46,6 @@ const Resume = () => {
                                 Download my Resume
                             </button>
                         </a>
-
-
                     </div>
                 </div>
             </section>

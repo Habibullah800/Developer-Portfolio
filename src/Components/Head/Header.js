@@ -50,7 +50,6 @@ const Header = () => {
                                 <button className='home-btn'><a href='#contact'>Contact me</a></button>
                             </li>
                         </ul>
-
                         <button className='toggle' onClick={() => setMobile(!Mobile)}>
                             {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
                         </button>

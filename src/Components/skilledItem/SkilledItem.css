@@ -14,7 +14,6 @@
     margin: 10px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .skilledItem .box p {
@@ -38,8 +37,6 @@
     opacity: 1;
 }
 
-
-
 .skillGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -54,7 +51,4 @@
     .skillGrid {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
-
 }

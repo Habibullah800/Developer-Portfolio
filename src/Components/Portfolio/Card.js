@@ -12,8 +12,7 @@ const Card = (props) => {
     } else {
         document.body.classList.remove("active-modal")
     }
-    console.log(props.gitui);
-    const git = props.gitui
+
     return (
         <>
             <div onClick={toggleModal} className='box btn_shadow '>
@@ -29,7 +28,6 @@ const Card = (props) => {
                 <div className='title'>
                     <h2 onClick={toggleModal}>{props.title}</h2>
                     <a href='#popup' onClick={toggleModal}>
-
                         <button className='btn_shadow'>
                             Details
                         </button>
@@ -57,7 +55,6 @@ const Card = (props) => {
                                         WebSite Live Link
                                     </button>
                                 </a>
-
                                 <a href={props.gitui} target='blank'>
                                     <button className='btn_shadow'>
                                         Git UI Repository
@@ -68,8 +65,6 @@ const Card = (props) => {
                                         Server Repository
                                     </button>
                                 </a>
-
-
                             </div>
                             <button className='close-modal btn_shadow' onClick={toggleModal}>
                                 <i class='fas fa-times'></i>

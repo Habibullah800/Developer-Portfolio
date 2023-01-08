@@ -37,7 +37,6 @@ const Testimonial = () => {
                         {data.map((value, valueIndex) => {
                             return <Slide key={value.id} {...value} valueIndex={valueIndex} index={index} />
                         })}
-
                         <div className='slide_button'>
                             <button className='btn_shadow prev_btn' onClick={() => setIndex(index - 1)}>
                                 <i class='fas fa-arrow-left'></i>
