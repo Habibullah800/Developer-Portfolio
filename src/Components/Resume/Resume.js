@@ -42,6 +42,16 @@ const Resume = () => {
                                 })}
                             </div>
                         </div>
+
+                    </div>
+                    <div className='button resumeBtn '>
+                        <a href='https://drive.google.com/file/d/1MdjQN843Ui4nVrn27KOL_dN09wVVJ3Xd/view?usp=sharing' target='blank'>
+                            <button className='btn_shadow'>
+                                Download my Resume
+                            </button>
+                        </a>
+
+
                     </div>
                 </div>
             </section>

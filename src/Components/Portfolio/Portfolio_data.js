@@ -58,8 +58,10 @@ const Portfolio_data = [
         tecnology: 'Tecnology::-- JavaScript, Tailwinds, Daisyui, React js (Router, Hooks, Toastify, query), Protected Route, Firebase Authentication, Nodejs, Express, MongoDB',
         discription: '➔➔➔ A full stack project where admin add any product➔➔➔After Log-in Customer search any product add product to cart ➔➔➔ Admin section added, An admin can add or remove a product.➔➔➔ User can see their DashBoard',
         image: "https://i.ibb.co/m8FWsCs/Manufecture-Website-min.png",
+        live: 'https://github.com/Habibullah800/Manufacture-website-client-site-cv',
         gitui: 'https://github.com/Habibullah800/Manufacture-website-client-site-cv',
         gitserver: 'https://github.com/Habibullah800/Manufecture-website-server-site-cv',
+
     },
     {
         id: 6,
@@ -69,6 +71,9 @@ const Portfolio_data = [
         tecnology: 'Tecnology::-- HTML, Vanila CSS, JavaScript, Tailwinds, React js, React Router Dom, Font Awesome',
         discription: ' ➔➔➔ It is a landing page using React.➔➔➔No other framework or CMS were used in this landing page. ➔➔➔It is fully responsive for any kind of screen size. Here used CSS Media Queries.',
         image: "https://i.ibb.co/XWVDNJM/welcome-packet.png",
+        live: 'https://github.com/Habibullah800/Developer-Portfolio',
+        gitui: 'https://github.com/Habibullah800/Developer-Portfolio',
+        gitserver: 'https://github.com/Habibullah800/Developer-Portfolio',
     },
 
 ]

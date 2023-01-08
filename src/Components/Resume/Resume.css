@@ -95,6 +95,14 @@
     background: #ff3a75;
 }
 
+.resumeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
 @media (max-width: 768px) {
     .Resume .d_flex {
         flex-direction: column;
