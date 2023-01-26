@@ -47,10 +47,11 @@
 
 .hero_btn button {
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .hero_btn i {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .hero_btn button img {
@@ -92,8 +93,9 @@
 
     .hero .right,
     .hero .left {
-        width: 100%;
-        margin-left: 20px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .hero .f_flex {
@@ -102,7 +104,42 @@
     }
 
     .hero .right_img {
-        width: 100%;
-        height: 59vh;
+        width: 96%;
+        height: 350px;
     }
+
+    .hero .right_img img {
+        position: absolute;
+        top: -90px;
+        right: 2%;
+        width: 310px;
+        height: 420px;
+    }
+
+    .hero_btn {
+        margin-top: 50px;
+    }
+
+    .hero .right_img {
+        background: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+        border-radius: 10px;
+        height: 300px;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .center {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .center-1 {
+        text-align: center;
+    }
+
+    .none {
+        display: none;
+    }
+
 }

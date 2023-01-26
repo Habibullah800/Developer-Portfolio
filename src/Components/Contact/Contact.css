@@ -23,10 +23,16 @@
 
 .Contact .button {
     margin-top: 20px;
+
+}
+
+.btn_shadow i {
+    font-size: 22px;
 }
 
 .Contact button {
-    margin-right: 12px;
+    margin-right: 10px;
+    margin-bottom: 25px;
 }
 
 .Contact .right {
@@ -69,5 +75,10 @@
         width: 100%;
         margin-top: 50px;
         margin-left: 0px;
+    }
+
+    .contactGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }

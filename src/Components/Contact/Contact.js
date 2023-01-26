@@ -52,7 +52,7 @@ const Contact = () => {
                                     <p>Phone: +8801757971756</p>
                                     <p>Email: mdhabibullah800@gmail.com</p> <br />
                                     <span>FIND WITH ME</span>
-                                    <div className='button f_flex'>
+                                    <div className='button f_flex contactGrid'>
                                         <a href="https://web.facebook.com/profile.php?id=100008422393695" target="blank">
                                             <button className='btn_shadow'>
                                                 <i className='fab fa-facebook-f'></i>

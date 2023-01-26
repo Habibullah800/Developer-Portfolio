@@ -39,14 +39,6 @@ const ResumeApi = [
         desc: "I have a lot of experience working with many international buyers. Work as digital marketer for long-term with some buyers. Finished every project completely on time and got five stars Review",
         rate: "Top rated",
     },
-    {
-        id: 6,
-        category: "experience",
-        year: "Junior Officer IT",
-        title: "Far-East Group, Bangladesh",
-        desc: "Worked in Far-East Group of Information and Technology Department.",
-        rate: "*****",
-    },
 
 ]
 

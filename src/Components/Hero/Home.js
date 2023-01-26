@@ -10,11 +10,11 @@ const Home = () => {
             <section className='hero' id='home'>
                 <div className='container f_flex top'>
                     <div className='left top'>
-                        <h3>WELCOME TO MY WORLD</h3>
-                        <h1>
+                        <h3 className="center">WELCOME TO MY WORLD</h3>
+                        <h1 className="center-1">
                             Hi, I’m <span>Habibullah</span>
                         </h1>
-                        <h2>
+                        <h2 className="none">
                             a
                             <span>
                                 <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='.' typeSpeed={90} deleteSpeed={70} delaySpeed={1000} />
