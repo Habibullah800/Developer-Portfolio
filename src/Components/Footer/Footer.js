@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <footer>
                 <div className='text-center'>
-                    <span>© 2022. All rights reserved by Habibullah_Bahar.</span>
+                    <span>© 2026. All rights reserved by Habibullah_Bahar.</span>
                 </div>
             </footer>
         </>

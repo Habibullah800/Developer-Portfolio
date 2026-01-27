@@ -20,7 +20,7 @@ const Home = () => {
                                 <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='.' typeSpeed={90} deleteSpeed={70} delaySpeed={1000} />
                             </span>
                         </h2>
-                        <p>I’m a passionate full-stack web developer with 2+ years of experience, focusing on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you! </p>
+                        <p>I’m a passionate full-stack web developer with 5+ years of experience, focusing on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you! </p>
                         <div className='hero_btn d_flex'>
                             <div className='col_1'>
                                 <h4>FIND WITH ME</h4>

@@ -3,8 +3,8 @@ const ResumeApi = [
         id: 1,
         category: "education",
         year: "Uttara University",
-        title: "Bachelor Of Science (BS.)",
-        desc: "I have completed a degree in Bachelor of Science from Uttara University. I completed my degree by getting fast classes. Participated in various coding competitions while in varsity.",
+        title: "BSc. In Textile Engineering",
+        desc: "I have completed my BSc in Textile Engineering from Uttara University. I finished my degree by attending fast-track classes and received both the Vice Chancellor’s Award and the Dean’s Award for academic excellence. I also served as an executive member of Textile Society.",
         rate: "1st Class",
     },
     {
@@ -26,18 +26,27 @@ const ResumeApi = [
     {
         id: 4,
         category: "experience",
+        year: "Cordinator Textile Planning and Operation",
+        title: "Gildan Active Wear Bangladesh",
+        desc: "Coordinated textile planning and operations with focus on capacity analysis and machine utilization. Ensured adherence plans by monitoring production planning vs actual output. Developed Excel VBA automation for production ticket generation, printing, and production order tracking by extracting and processing data from JDE to support accurate planning and reporting.",
+        rate: "92/100 ",
+    },
+  
+    {
+        id: 5,
+        category: "experience",
+        year: "Fakhruddin Textile Mills LTd",
+        title: "Junior Executive Knitting & Dyeing",
+        desc: "Assisted in knitting and dyeing operations to achieve daily production targets. Monitored machine performance, process parameters, and fabric quality, and coordinated with production and QC teams to reduce defects and downtime.",
+        rate: "Top rated",
+    },
+    {
+        id: 6,
+        category: "experience",
         year: "Front-End Developer (Intern)",
         title: "Softec IT Institute",
         desc: "I have completed internship from SoftTech-IT Institute. I have done many projects there using different technologies such as React, Redux, Angular, MongoDB, Express, Node. I managed to complete the training very well.",
         rate: "5.00/5.00 ",
-    },
-    {
-        id: 5,
-        category: "experience",
-        year: "Web developer & Digital Marketer",
-        title: "International marketplace Fiver.com",
-        desc: "I have a lot of experience working with many international buyers. Work as digital marketer for long-term with some buyers. Finished every project completely on time and got five stars Review",
-        rate: "Top rated",
     },
 
 ]
