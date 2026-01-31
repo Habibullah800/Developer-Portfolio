@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.app2 {
+  max-width: 1350px;
+  margin: 0 auto;      /* center the content */
+  padding: 0 20px;     /* space on left & right */
+}
 html {
   scroll-behavior: smooth;
 }

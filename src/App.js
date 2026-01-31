@@ -11,9 +11,11 @@ import Footer from './Components/Footer/Footer';
 import SkilledItem from './Components/skilledItem/SkilledItem';
 
 
+
 function App() {
+  
   return (
-    <div className="App">
+    <div className="App app2">
       <Header />
       <Home />
       <Features />

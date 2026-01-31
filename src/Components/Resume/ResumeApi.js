@@ -45,7 +45,7 @@ const ResumeApi = [
         category: "experience",
         year: "Front-End Developer (Intern)",
         title: "Softec IT Institute",
-        desc: "I have completed internship from SoftTech-IT Institute. I have done many projects there using different technologies such as React, Redux, Angular, MongoDB, Express, Node. I managed to complete the training very well.",
+        desc: "I have completed internship from SoftTech-IT Institute. I have done many projects there using different technologies such as React, Redux, Angular, MongoDB, Express, Node.",
         rate: "5.00/5.00 ",
     },
 

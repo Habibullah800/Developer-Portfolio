@@ -30,7 +30,9 @@ const Home = () => {
                                             <i className='fab fa-github'></i>
                                         </button>
                                     </a>
-                                    <a href="https://web.facebook.com/profile.php?id=100008422393695" target="blank">
+                                    <a href="./"
+                                     target="blank">
+                                    {/* "https://web.facebook.com/profile.php?id=100008422393695" */}
                                         <button className='btn_shadow'>
                                             <i className='fab fa-facebook-f'></i>
                                         </button>

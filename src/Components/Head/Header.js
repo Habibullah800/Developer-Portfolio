@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <>
-            <header className='header'>
+            <header className='header app2'>
                 <div className='container d_flex'>
                     <div className='logo'>
                         <img src={logo} alt='' />
